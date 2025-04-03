@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Admin Dashboard
+
+A admin dashboard built with Next.js, React, and Tailwind CSS.
+
+![Admin Dashboard Screenshot](./public/dashboard-screenshot.png)
+
+## Features
+
+- 🚀 Built with Next.js 15.2.4 with Turbopack
+- ⚛️ React 19 for the latest React features
+- 🎨 Styled with Tailwind CSS 4
+- 🧩 Component library built with Radix UI primitives
+- 🔍 TypeScript for type safety
+- 🖌️ Beautiful UI components with Lucide icons
+
+## Technology Stack
+
+- **Frontend Framework**: Next.js 15.2.4
+- **UI Library**: React 19
+- **Styling**: Tailwind CSS 4, tailwind-merge, class-variance-authority
+- **Icons**: Lucide React
+- **UI Components**: Radix UI (Dialog, ScrollArea, Separator, Slot, Tooltip)
+- **Animations**: tw-animate-css
+- **Development**: TypeScript, ESLint 9
+- **Build Tool**: Turbopack
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18.x or higher
+- npm or bun package manager
+
+### Installation
+
+1. Clone the repository
 
 ```bash
+https://github.com/kaungminhtet-swe/admin-dashboard.git
+cd admin-dashboard
+```
+
+2. Install dependencies
+
+```bash
+# Using npm
+npm install
+
+# Using bun
+bun install
+```
+
+3. Start the development server
+
+```bash
+# Using npm
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+
+# Using bun
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` - Start the development server with Turbopack
+- `npm run build` - Build the application for production
+- `npm run start` - Start the production server
+- `npm run lint` - Run ESLint to check code quality
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+This admin dashboard provides a foundation for building admin interfaces with various components:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Dashboard overview
+- User management
+- Analytics and reporting
+- Settings and configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Customize the components in the `components/ui` directory to match your design requirements.
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+admin-dashboard/
+├── app/               # Next.js app directory
+├── components/        # Reusable UI components
+│   └── ui/            # Core UI components
+├── hooks/             # Custom React hooks
+├── lib/               # Utility functions and helpers
+├── public/            # Static assets
+└── ...
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [Radix UI](https://www.radix-ui.com/)
